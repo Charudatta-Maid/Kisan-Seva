@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "KisanSevaApp",
+    "slug": "KisanSevaApp",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./assets/farm.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/farm.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.kisan.kisansevaapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/farm.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to show weather updates."
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
